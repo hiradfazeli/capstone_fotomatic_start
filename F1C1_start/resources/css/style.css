@@ -241,6 +241,10 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -276,7 +280,11 @@ header .mobile {
 
   .feature {
     margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
   }
 }
 
@@ -306,8 +314,14 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
+  justify-content: center;
   max-width: 100%;
   padding: 0 1%;
+}
+
+#filters-section .image-container {
+  margin: 0 0.5rem;
 }
 
 @media only screen and (max-width: 760px) {
@@ -346,11 +360,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
